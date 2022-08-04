@@ -1,0 +1,10 @@
+[user]
+	name = ivanng-oursky
+	email = ivan.ng@oursky.com
+[alias]
+	gone = ! git fetch origin -p && git for-each-ref --format '%(refname:short) %(upstream:track)' | awk '$2 == \"[gone]\" {print $1}' | xargs -r git branch -D
+[core]
+	excludesFile = ~/.gitignore
+	editor = code --wait
+[pager]
+	branch = false

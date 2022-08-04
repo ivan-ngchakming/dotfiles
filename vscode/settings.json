@@ -1,0 +1,113 @@
+{
+  // general
+  "editor.fontFamily": "\"MesloLGS NF\", Menlo, Monaco, 'Courier New', monospace",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.formatOnSave": true,
+  "editor.accessibilitySupport": "off",
+  "workbench.colorTheme": "Nord",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  //
+  // git
+  "gitlens.codeLens.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "gitlens.views.commits.files.layout": "list",
+  "git.detectSubmodules": false,
+  "git.autofetch": true,
+  //
+  // tailwind
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "cn\\(([^)]*)\\)",
+      "\"([^\"]*)\""
+    ]
+  ],
+  "tailwindCSS.includeLanguages": {
+    "javascriptreact": "javascript",
+    "javascript": "javascript",
+    "html": "HTML",
+    "typescriptreact": "javascript"
+  },
+  "editor.quickSuggestions": {
+    "other": true,
+    "strings": true,
+    "comments": false
+  },
+  //
+  // golang
+  "go.coverOnSave": false,
+  "go.useCodeSnippetsOnFunctionSuggest": false,
+  "go.buildOnSave": "workspace",
+  "[go]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "go.vetOnSave": "package",
+  "go.buildFlags": [],
+  "go.vetFlags": [],
+  "go.languageServerExperimentalFeatures": {
+    "autoComplete": true,
+    "format": true
+  },
+  "go.gocodeAutoBuild": false,
+  "go.lintOnSave": "package",
+  "go.buildTags": "",
+  "go.goroot": "~\/.asdf\/installs\/golang\/1.18\/go",
+  "go.alternateTools": {
+    "go-langserver": "gopls"
+  },
+  "go.lintFlags": [],
+  "go.inferGopath": false,
+  "go.useLanguageServer": true,
+  //
+  // spellcheck
+  "cSpell.userWords": [
+    "subquery"
+  ],
+  //
+  // web
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[graphql]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  //
+  // json
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  //
+  // Java
+  "[java]": {
+    "editor.formatOnSave": false
+  },
+  "java.completion.importOrder": [
+    "",
+    "javax",
+    "java",
+    "#"
+  ],
+  //
+  // python
+  "python.formatting.provider": "black"
+}

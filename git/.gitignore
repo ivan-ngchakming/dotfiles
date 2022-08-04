@@ -1,0 +1,12 @@
+# For personal temperory notes
+**/tmp
+
+# golang debug fileß
+**/__debug_bin
+
+# IDEs
+.vscode
+
+# Misc
+.DS_Store
+*.swp
